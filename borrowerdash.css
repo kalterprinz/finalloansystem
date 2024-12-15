@@ -1,0 +1,572 @@
+
+
+
+.dashboardb {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin:50px 0 0 0px; /*top right bottom left*/ 
+  background-color: white;
+  
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 3px 0;
+  background-color: white;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  width: 100%;
+  top:0;
+  z-index: 1000;
+  border-bottom: 1px solid #990000;
+  text-align: left;
+  margin: 0 auto; 
+}
+.cover{
+  background-color: white;
+  width: 100%;
+  height: 200px;
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  margin-bottom: -50px;
+
+}
+
+.banner{
+  max-width: 100%; 
+  max-height: 500px;
+  height: auto; 
+  margin-top: -100px;
+  background-size:12%;
+}
+.headdash {
+  display: flex;
+  justify-content: space-between;
+  padding: 2px 0;
+  background-color: white;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  top:0;
+  z-index: 1000;
+  border-bottom: 1px solid #990000;
+  
+}
+header span {
+  color: #990000;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 20px;
+  width: fit-content;
+  margin-right: 40px;
+  margin-top: 20px;
+}
+.dashh2{
+  font-size: 15px;
+  font-weight: lighter;
+  font-family: Trebuchet MS (sans-serif);
+  margin-top: 15px;
+  color: #990000;
+  text-align: left;
+  font-weight: bold;
+  margin-left: -758px;
+  
+}
+.iconn{
+  margin-right: -790px;
+}
+
+.navicon {
+  width: 30px;
+  margin-top: 10px;
+  margin-bottom: -5px;
+  margin-right: 10px;
+  
+}
+
+.navicon1 {
+  width: 38px;
+  margin-top: 10px;
+  margin-bottom: -5px;
+  margin-right: 10px;
+}
+
+.content {
+  display: flex;
+  max-width: 1200px;
+  margin: 100px 0;
+  
+}
+
+aside {
+  width: 25%;
+  padding: 20px;
+  
+}
+
+main {
+  width: 73%;
+}
+
+.balance-info {
+  background-color: #202840;
+  color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.balance-info h3 {
+  font-size: 24px;
+}
+
+.balance-info p {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.profile-section {
+  text-align: center;
+  margin-top: -320px;
+  width: 10%;
+  margin-left: 10px;
+}
+.name2{
+  margin-top: -30px;
+  margin-left: 140px;
+  color: #202840;
+  width: max-content;
+}
+.work{
+  margin-top: -20px;
+  margin-left: 140px;
+  color: #202840;
+  width: max-content;
+  font-size: 12px;
+}
+.about{
+  margin-left: 5px;
+  margin-top: 50px;
+}
+.profile-photo{
+  margin-top: 130px;
+}
+
+.edit{
+  background-color: white;
+  border-radius: 5px;
+  width: 100px;
+  padding: 5px;
+  border-color: #202840;
+  box-shadow: 0px 2px 10px #202840(0, 0, 0, 0.1);
+  margin-left: 350px;
+  color: #202840;
+  cursor: pointer;
+}
+
+.profile-section img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+hr {
+  border: none;            
+  height: 1px;           
+  background-color: #ccc;
+  margin-top: 10px;   
+  margin-bottom: 10px;    
+}
+
+.about-info{
+  color: #202840;
+  width: 200px;
+  text-align: left;
+  margin-top: -85px;
+ 
+}
+
+.about-info p{
+  color: #202840;
+  font-size: 12px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-left: 20px;
+}
+
+.filters{
+  margin-top: -25px;
+  margin-left: 82%;
+  margin-right: 40px;
+  display: flex;
+}
+
+.filters button{
+  background-color: white;
+  color: #202840;
+  border-radius:5px ;
+  border-collapse: collapse;
+  padding: 5px;
+  margin-right: 5px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  border: none;
+  font-size: 11px;
+}
+.filters button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  color: white;
+}
+.filters .active {
+  background-color: #0056b3; /* Highlight active button */
+  color: white;
+}
+
+.status-success {
+  color: green;
+}
+
+.status-failed {
+  color: red;
+}
+.welcome{
+  color: #202840;
+  font-size: 40px;
+  margin-top: -90px;
+  align-items: left;
+  text-align: left;
+  font-weight: bolder;
+}
+.nameO{
+  color: #202840;
+  font-size: 40px;
+  margin-top: -20px;
+  align-items: left;
+  text-align: left;
+  font-weight: bolder;
+}
+.col {
+  display: flex;
+  flex-direction: column; /* Arrange items vertically */
+  align-items: center; /* Horizontally center items */
+  justify-content: center; /* Vertically center items if the parent container has height */
+  text-align: center; /* Center text within the blocks */
+  margin-top: 60px;
+  margin-left: -100px;
+
+}
+.ngalan {
+  gap: 5px;
+  text-align: left; /* Aligns text to the left */
+  display: block;
+  margin-right: 300px;
+  margin-top: 50px;
+}
+.cards-containerb {
+  display: flex;
+  flex-direction: column; /* Ensure cards stack vertically */
+  align-items: center; /* Center the cards horizontally */
+  gap: 5px;
+  padding: 5px;
+  margin-left: 400px;
+}
+
+.loan-cardborrow {
+
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.loan-cardborrow h3 {
+  margin-bottom: -15px;
+  font-size: 20px;
+  margin-top: -5px;
+}
+.loan-cardborrow p {
+  margin-bottom: -10px;
+}
+.current{
+  color: #52c41a;
+  font-size: 12px;
+  margin-top: 25px;
+}
+.due{
+  color: red;
+  font-size: 12px;
+  margin-top: 15px;
+}
+.due1{
+  color:#202840;
+  font-size: 12px;
+  margin-top: 15px;
+}
+.term{
+  color: #202840;
+  font-size: 12px;
+  margin-top: 15px;
+}
+
+.active-loan {
+  background-color: #e6f7ff;
+  border-left: 10px solid #1890ff;
+  height: 155px;
+  width: 100%;
+  margin-top: -190px;
+}
+
+.loan-details p{
+  text-align: left;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 10px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-top: 10px;
+  margin-top: 15px;
+}
+
+.progress {
+  height: 100%;
+  background-color: #1890ff;
+}
+/*loan status*/
+.loan-status-progress {
+  width: 100%;
+  padding: 20px;
+}
+
+.progress-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  margin-top: 20px;
+  margin-left:-100px;
+}
+.progress-status {
+  position: absolute;
+  top: 22px;
+  left: 0;
+  right: 0;
+  z-index: 0;
+  height: 5px;
+  
+}
+.filler{
+  height: 5px;
+  background-color: #1890ff;
+  z-index: 1;
+  transition: width 0.3s ease;
+  margin-left: 40px;
+}
+
+.progress-step {
+  text-align: center;
+  flex: 1;
+  position: relative;
+  z-index: 2;
+}
+
+.step-icon {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-color: #ccc;
+  border-radius: 50%;
+  line-height: 40px;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 10px;
+  z-index: 2;
+}
+
+.completed .step-icon {
+  background-color: #1890ff;
+}
+
+.progress-step p {
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.progress-step::after {
+  content: '';
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  height: 5px;
+  width: 100%;
+  background-color: #ccc;
+  z-index: -1;
+}
+
+.progress-step.completed::after {
+  background-color: #1890ff;
+}
+
+.progress-step:last-child::after {
+  display: none;
+}
+
+/*payment*/
+.payprogress {
+width: 60%;
+height: 10px;
+background-color: #f0f0f0;
+border-radius: 5px;
+overflow: hidden;
+margin-left: 60px;
+position: relative;
+margin-left: 280px;
+margin-top: -20px;
+text-align: center;
+align-items: center;
+}
+
+.progressp {
+height: 100%;
+background-color: #1890ff;
+border-radius: 5px 0 0 5px;
+}
+
+.payh5 {
+margin-top: 5px;
+margin-bottom: -15px;
+text-align: center;
+margin-left: 260px;
+color: white;
+}
+
+.transactions-tableb {
+width: 96%;
+max-width: 1200px; /* Align with other sections */
+margin: 20px auto; /* Center align the transaction section */
+border-radius: 8px; /* Rounded corners for the table container */
+overflow: hidden; /* Ensure rounded corners are visible */
+box-shadow: 0 3px 12px rgba(0, 0, 0, 0.2);
+margin-bottom: 50px;
+}
+
+.transactions-headerb {
+background-color: #051424; /* White background for the header */
+border-radius: 8px 8px 0 0; /* Rounded corners on the top */
+padding: 20px 20px; /* Padding around the header */
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+font-size: 18px; /* Font size for the header */
+font-weight: bold; /* Make the font bold */
+color: white; /* Match the color shown in the image */
+}
+.theadb th{
+font-size: 12px;
+text-align: center;
+align-items: center;
+padding: 10px;
+}
+.tbodyb td{
+font-size: 12px;
+text-align: center;
+align-items: center;
+}
+
+/* Notification dropdown styles */
+.notification-container {
+position: relative;
+}
+
+.notifications-dropdown {
+  position: absolute;
+  top: 50px; /* Adjust this value based on your layout */
+  right: 10px; /* Adjust the position */
+  width: 300px; /* Set the width of the dropdown */
+  max-height: 300px; /* Limit the height of the dropdown */
+  overflow-y: auto; /* Enable vertical scrolling */
+  background-color: #990000;
+  border: 1px solid #990000;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  z-index: 10; /* Ensure the dropdown appears above other content */
+}
+
+.notifications-dropdown h3 {
+font-size: 18px;
+font-weight: bold;
+color: #ffffff;
+margin-bottom: 15px;
+text-align: center;
+}
+
+.notification-list {
+list-style: none;
+padding: 10px;
+margin-top: -20px;
+cursor: pointer;
+}
+
+.notification-item {
+display: flex;
+align-items: center;
+padding: 10px 0;
+border-bottom: 1px solid #ffffff;
+}
+
+.notification-item:last-child {
+border-bottom: none;
+}
+
+.notification-message {
+flex: 1;
+color: #ddd;
+}
+
+.notification-message p {
+margin-left: 5px;
+font-size: 14px;
+color: #fffdfd;
+}
+
+.notification-time {
+font-size: 12px;
+color: #ffffff;
+margin-left: 5px;
+
+}
+
+.prof-dropdown {
+  position: absolute;
+  top: 40px; /* Adjust based on button size */
+  right: 0;
+  background-color: #990000;
+  border: 1px solid #c20c0c;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
+  width: 150px;
+}
+
+.profile-link, .logout-button {
+  display: block;
+  padding: 10px 20px;
+  font-size: 14px;
+  color: #ffffff; /* Change text color to red */
+  text-decoration: none; /* Remove underline from the link */
+  text-align: left;
+  cursor: pointer;
+  background: none; /* For the button */
+  border: none; /* For the button */
+}
+
+.profile-link:hover, .logout-button:hover {
+  background-color: #ffffff;
+  color: #990000; /* Optional: Darker red on hover */
+  width: 110px;
+}
+.logout-button:hover {
+  background-color: #ffffff;
+  color: #990000;
+  width: 150px;
+}

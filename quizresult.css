@@ -1,0 +1,254 @@
+/* quizresult.css */
+
+.congrats-image{
+    width: 990px;
+    margin-top:40px;
+    margin-bottom: -20px;
+}
+.quiz-result {
+    background-color:#f6f6f6;
+    color: #333;
+    text-align: center;
+}
+
+/* quizresult.css */
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f6f6f6;
+
+
+}
+
+.result-container {
+    width: 3000px;
+    margin-top: 8%; /* Leave space for the fixed header */
+    background-color: #fff;
+    padding: 20px 50px; /* Add padding on all sides (top/bottom: 30px, left/right: 20px) */
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 5%;
+    color: #9C0B0F;
+}
+
+.button-container{
+    margin-top: 20px;
+    justify-content: center;
+    display: flex;
+}
+
+.logo {
+    height: 50px;
+    margin-right: 10px;
+}
+
+.header-title {
+    font-size: 18px;
+    color: #a01f24;
+}
+
+.congrats-banner {
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.result-container {
+    margin: 20px auto;
+    text-align: left;
+    width: 900px;
+}
+
+.greeting {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #9C0B0F;
+}
+
+.qualification-message {
+    font-size: 16px;
+    color: #9C0B0F;
+}
+
+.quiz-again-button {
+    background-color: #a01f24;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.apply-loan-button{
+    background-color: #a01f24;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.loan-offers {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.loan-card {
+    border: 1px solid #fff;
+    padding: 15px;
+    width: 50%;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #fff;
+}
+
+
+.avail-button {
+    background-color: #a01f24;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+
+.loan-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px; /* Space between the image and text */
+}
+
+/* Popup Overlay */
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+/* Popup Box */
+.popup-box {
+    background: white;
+    padding: 20px;
+    width: 70%;
+    height: 72%;
+    border-radius: 8px;
+    position: relative;
+    text-align: center;
+}
+
+/* Close Button */
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    color: black;
+}
+
+
+
+/* Popup Info (Text) */
+.popup-info {
+    width: 30%;
+    text-align: left;
+    margin-bottom: 0;
+    font-size: 25px;
+    margin-top: -10px;
+}
+.popup-info h3{
+    text-align: left;
+    margin-bottom: 0;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-left: 40px;
+    color: #9C0B0F;
+    font-weight: 800;
+    
+}
+.loan-container {
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px; /* set a max width if desired */
+    margin: 0 auto; /* center the container */
+    margin-top: -40px;
+    width: 500px;
+}
+
+.loan-info {
+    font-size: 16px; /* Adjust the text size */
+    line-height: 1.5;
+    color: #333; /* Set a color for the text */
+    text-align: justify;
+    text-indent: 30px; /* Indent the first line of the paragraph */
+    
+}
+.loan1-info {
+    font-size: 16px; /* Adjust the text size */
+    line-height: 1.5;
+    color: #333; /* Set a color for the text */
+    text-align: justify;
+   
+
+}
+
+
+/* Popup Image */
+.popup-image-container {
+    width: 100%;
+    height: 400px;
+    margin-top: -50px;
+}
+
+.popup-image {
+    width: 40%;
+    height: 100%;
+    margin-left: 53%;
+    margin-top: -410px;
+    margin-bottom: 60px;
+}
+
+.loan-info-container {
+    padding: 20px;
+    border-radius: 8px;
+    width: 500px;
+}
+
+.loan-info-container p {
+    width: 80%;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color: #333;
+    text-indent: 50px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.loan-info-container ul {
+    margin-left: 20px;
+}
+
+.loan-info-container li {
+    margin-bottom: 5px;
+    font-size: 1rem;
+    color: #555;
+}
+
+

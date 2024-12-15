@@ -1,0 +1,51 @@
+.table-container {
+    max-height: 300px;
+    overflow-y:scroll;
+  }
+  
+  .transactions-tableb table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .transactions-tableb th,
+  .transactions-tableb td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  .status-success {
+    color: green;
+  }
+  
+  .status-failed {
+    color: red;
+  }
+  
+  .row-gray {
+    background-color: #f0f0f0;
+  }
+  
+  .status-success {
+    color: green;
+  }
+  
+  .status-failed {
+    color: red;
+  }
+  
+  .payprogress {
+    background-color: #e0e0e0; /* Background color for the progress container */
+    border-radius: 10px; /* Optional: rounded corners */
+    height: 20px; /* Height of the progress bar */
+    position: relative;
+  }
+  
+  .progressp {
+    background-color: #4caf50; /* Progress fill color */
+    height: 100%; /* Matches the height of the container */
+    border-radius: 10px; /* Match container's rounded corners */
+    transition: width 0.3s ease-in-out; /* Smooth animation for progress change */
+  }

@@ -1,0 +1,266 @@
+.transactions-table {
+  height: fit-content;
+  width: 100%;
+  max-width: 1200px; /* Align with other sections */
+  margin: 20px auto; /* Center align the transaction section */
+  border-radius: 8px; /* Rounded corners for the table container */
+  overflow: hidden; /* Ensure rounded corners are visible */
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.2);
+  margin-bottom: 50px;
+  margin-left: 0px;
+}
+
+.transactions-header {
+  background-color: #051424; /* White background for the header */
+  border-radius: 8px 8px 0 0; /* Rounded corners on the top */
+  padding: 10px 20px; /* Padding around the header */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+  font-size: 18px; /* Font size for the header */
+  font-weight: bold; /* Make the font bold */
+  color: white; /* Match the color shown in the image */
+}
+
+table {
+  width: 100%;
+  border-collapse: separate; /* Use separate borders for rounded corners */
+  border-spacing: 0;
+  
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+  font-size: 13px;
+  width: fit-content;
+}
+
+th {
+  background-color: #f4f4f4;
+  border-top-left-radius: 8px; /* Rounded corners for the top-left */
+  border-top-right-radius: 8px; /* Rounded corners for the top-right */
+  font-weight: bold;
+  
+}
+
+tbody tr {
+  background-color: #ffffff; /* White background for table rows */
+}
+
+tbody tr:hover {
+  background-color: #f1f1f1; /* Hover effect for better UX */
+}
+
+td {
+  border-bottom: 1px solid #ddd; /* Add a border to separate rows */
+}
+
+/* First and last row for rounded corners */
+tbody tr:last-child td:first-child {
+  border-bottom-left-radius: 8px;
+}
+
+tbody tr:last-child td:last-child {
+  border-bottom-right-radius: 8px;
+}
+
+.search-bar1 {
+  position: relative;
+  margin-top: -27px;
+}
+
+.search-bar1 input {
+  width: 44.5%;
+  padding: 5px;
+  margin-left:535px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 12px;
+  border: 1px solid #ccc;
+  
+}
+.action-buttons {
+gap: 10px; /* Adds space between the buttons */
+width: 10px;
+}
+
+.btn {
+padding: 5px 2px; /* Padding for button */
+border: 2px solid transparent; /* Default border */
+border-radius: 5px; /* Rounded corners */
+cursor: pointer; /* Pointer cursor on hover */
+transition: all 0.3s ease; /* Smooth transition for hover effects */
+font-size: 11px;
+}
+
+.btn-view {
+padding: 2px; /* Padding for button */
+width: 80px;
+border: 2px solid transparent; /* Default border */
+border-radius: 5px; /* Rounded corners */
+cursor: pointer; /* Pointer cursor on hover */
+transition: all 0.3s ease; /* Smooth transition for hover effects */
+font-size: 11px;
+margin-left: 5px;
+background-color: rgb(64, 156, 249);
+}
+
+.btn-edit {
+padding: 2px; /* Padding for button */
+width: 40px;
+border: 2px solid transparent; /* Default border */
+border-radius: 5px; /* Rounded corners */
+cursor: pointer; /* Pointer cursor on hover */
+transition: all 0.3s ease; /* Smooth transition for hover effects */
+font-size: 11px;
+}
+
+.btn-edit {
+background-color: rgb(64, 156, 249); /* Background color for Edit button */
+color: white; /* Text color for Edit button */
+}
+
+.btn-view:hover {
+background-color: rgb(19, 98, 246); /* Darker blue on hover */
+border-color: lightblue; /* Light blue border on hover */
+}
+
+.btn-delete {
+background-color: rgb(255, 70, 70); /* Background color for Delete button */
+color: white; /* Text color for Delete button */
+}
+
+.btn-delete:hover {
+background-color: rgb(255, 74, 74); /* Darker red on hover */
+border-color: lightcoral; /* Light coral border on hover */
+}
+.pagination-controls {
+display: flex;
+align-items: center; /* Vertically center align items */
+justify-content: center; /* Center the content horizontally */
+gap: 15px; /* Space between buttons and text */
+margin: 10px 0; /* Margin above and below the controls */
+}
+
+.page {
+padding: 5px 15px; /* Padding for buttons */
+border: 2px solid transparent; /* Default border */
+border-radius: 5px; /* Rounded corners */
+cursor: pointer; /* Pointer cursor on hover */
+transition: all 0.3s ease; /* Smooth transition for hover effects */
+background-color: #007bff; /* Default background color */
+color: white; /* Text color */
+font-size: 11px;
+}
+
+.page:hover:not(:disabled) {
+background-color: #0056b3; /* Darker blue on hover */
+border-color: #004085; /* Border color on hover */
+}
+
+.page:disabled {
+background-color: #ccc; /* Grey background for disabled button */
+color: #666; /* Darker text color for disabled button */
+cursor: not-allowed; /* Not allowed cursor for disabled button */
+}
+
+.pagespan {
+font-size: 16px; /* Font size for pagination text */
+color: #333; /* Color for pagination text */
+}
+/* Modal styles */
+.ReactModal__Overlay {
+background: rgba(0, 0, 0, 0.75); /* Dark overlay */
+display: flex; /* Use flexbox for centering */
+align-items: center; /* Center vertically */
+justify-content: center; /* Center horizontally */
+}
+
+.ReactModal__Content {
+background: white;
+border-radius: 50px;
+padding: 10px;
+margin-left: 30%;
+margin-top: 40px;
+width: 39%; /* Set a fixed width */
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+transition: all 0.3s ease; /* Smooth transition */
+}
+
+/* Modal header */
+.ReactModal__Content h3 {
+margin-bottom: 20px;
+color: white; /* Darker color for the title */
+margin-top: 5px;
+text-align: center;
+background-color: #051424;
+padding: 5px;
+border: 1px solid #ccc; /* Light gray border */
+border-radius: 40px; /* Rounded corners */
+}
+
+/* Input styles */
+.ReactModal__Content label {
+display: block;
+margin-bottom: 5px;
+font-size: 14px;
+font-weight: bold; /* Make labels bold */
+color: #555; /* Slightly lighter color for labels */
+}
+
+.ReactModal__Content input {
+width: 400px; /* Optional: limit max width of inputs */
+padding: 10px; /* Add some padding */
+border: 1px solid #ccc; /* Light gray border */
+border-radius: 4px; /* Rounded corners */
+font-size: 14px; /* Font size */
+
+margin-left: 35px;
+margin-bottom: 15px;
+}
+
+/* Additional input styles */
+.ReactModal__Content input:focus {
+border-color: #007bff; /* Highlight border color on focus */
+outline: none; /* Remove default outline */
+}
+
+/* Button container styles */
+.button-containermodal {
+display: flex; /* Use flexbox for horizontal alignment */
+justify-content: center; /* Center buttons horizontally */
+color: white; /* Text color */
+border: none; /* Remove default border */
+padding: 5px 15px; /* Add padding */
+border-radius: 4px; /* Rounded corners */
+cursor: pointer; /* Pointer cursor on hover */
+font-size: 16px; /* Button text size */
+transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+/* Individual button styles */
+.modal-button {
+background-color: #007bff; /* Primary button color */
+color: white; /* Text color */
+border: none; /* Remove default border */
+padding: 5px 15px; /* Add padding */
+border-radius: 4px; /* Rounded corners */
+cursor: pointer; /* Pointer cursor on hover */
+font-size: 12px; /* Button text size */
+transition: background-color 0.3s ease; /* Smooth transition */
+margin: 0 10px; /* Space between buttons */
+}
+
+/* Button hover effects */
+.modal-button:hover {
+background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Secondary button styles for close */
+.modal-button.close {
+background-color: #dc3545; /* Secondary button color for close */
+}
+
+.modal-button.close:hover {
+background-color: #c82333; /* Darker red on hover */
+}

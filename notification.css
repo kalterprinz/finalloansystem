@@ -1,0 +1,77 @@
+
+/* notification.css */
+
+.notification-container {
+  position: relative;
+  display: inline-block;
+  border: 0;
+  
+  
+}
+
+.notifications-dropdown {
+  position: absolute;
+  top: 40px; /* Adjust based on your header's height */
+  right: 0;
+  width: 300px;
+
+  border: 1px solid #2d0606;
+  border-radius: 8px;
+  
+  padding: 25px;
+  z-index: 100;
+}
+
+.notification-button{
+  border: #ffffff;
+  background-color: #ffffff;
+}
+.notifications-dropdown h3 {
+  margin: 0;
+  padding-bottom: 10px;
+  font-size: 18px;
+  color: #ffffff;
+  border-bottom: 1px solid #ddd;
+}
+
+.notification-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.notification-item {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.notification-item:last-child {
+  border-bottom: none;
+}
+
+.notification-message p {
+  margin: 0;
+  font-size: 14px;
+  color: #fff;
+}
+
+.notification-time {
+  font-size: 12px;
+  color: #fff;
+}
+
+.see-all {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #c52828;
+  text-decoration: none;
+}
+
+.see-all:hover {
+  text-decoration: underline;
+}
+

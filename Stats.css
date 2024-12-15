@@ -1,0 +1,86 @@
+/* Stats.css */
+.stats {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px; /* Add some space between each stat box */
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.stat-box {
+  width: 23%;
+  background-color: #fff;
+  padding: 20px;
+  padding-right: 40px; /* Add right padding to give space for the colored bar */
+  text-align: left; /* Align text to the left */
+  border-radius: 8px;
+  position: relative;
+  font-family: Arial, sans-serif;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow for a raised effect */
+}
+
+.stat-box h2 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.stat-box p {
+  margin: 5px 0 0;
+  font-size: 14px;
+  color: #555;
+}
+
+.stat-box::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0; /* Place it on the right */
+  width: 10px; /* Adjust width for a more visible colored bar */
+  height: 100%;
+  border-radius: 0 8px 8px 0;
+}
+
+/* Specific colors for each stat */
+.active-loans::after {
+  background-color: #00a65a; /* Green */
+}
+
+.pending-applications::after {
+  background-color: #0073b7; /* Blue */
+}
+
+.overdue-payments::after {
+  background-color: #ff851b; /* Orange */
+}
+.review-payments::after {
+  background-color: yellow; /* Orange */
+}
+
+.rejected-applications::after {
+  background-color: #dd4b39; /* Red */
+}
+
+
+/* Hover Effect */
+.generate-report-button:hover {
+background-color: gray; /* Darker shade on hover */
+box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhance shadow on hover */
+transform: translateY(-2px); /* Slight lift on hover */
+;
+}
+
+/* Active State */
+.generate-report-button:active {
+background-color: gray; /* Even darker shade when pressed */
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Reduce shadow on press */
+transform: translateY(0); /* Reset lift on press */
+}
+.loan-title {
+font-size: 24px;
+color: #8B0000;
+margin-top: 70px; /* Adjust the top margin */
+margin-bottom: -40px; /* Remove any default bottom margin */
+}

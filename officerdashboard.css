@@ -1,0 +1,329 @@
+.offdashboard {
+  flex: 1;
+  overflow-y: auto;
+  margin-top: 100x;
+}
+.header2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 3px 0;
+  background-color: white;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  width: 100%;
+  top:0;
+  z-index: 1000;
+  border-bottom: 1px solid #990000;
+  text-align: left;
+}
+.headeroff {
+  display: flex;
+  justify-content: space-between;
+  padding: 3px 0;
+  background-color: white;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  width: 100%;
+  top:0;
+  z-index: 1000;
+  border-bottom: 1px solid #990000;
+  text-align: left;
+  margin: 0 auto; 
+}
+.sidebar {
+  width: 170px; /* Update the width if you change it */
+  height: 100vh; /* Full height of the viewport */
+  background-color: #990000;
+  color: white;
+  margin-top: 50px; /* Space for the header */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  position: fixed; /* Keep sidebar fixed */
+  left: 0; /* Align it to the left */
+}
+
+
+.landingh2off {
+  font-size: 15px;
+  color: #990000;
+  text-align: left;
+  font-weight: bold;
+  margin-right: 952px;
+  margin-top: 15px;
+}
+.landingh2off2 {
+  font-size: 15px;
+  color: #990000;
+  text-align: left;
+  font-weight: bold;
+  margin-right: 950px;
+  margin-top: 14px;
+}
+.landingh2off3 {
+  font-size: 15px;
+  color: #990000;
+  text-align: left;
+  font-weight: bold;
+  margin-right: 950px;
+  margin-top: 14px;
+}
+
+.logooff {
+  width: 40px;
+  height: 40px;
+  margin-left: 34px;
+  margin-bottom: 3px;
+  margin-top: 3px;
+}
+.logooff2 {
+  width: 40px;
+  height: 40px;
+  margin-left: 34px;
+  margin-bottom: 3px;
+  margin-top: 3px;
+}
+
+.Logoff {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-top: 60px;
+
+}
+.logoutcontoff {
+  display: flex;
+  flex-direction: column;
+  margin-left: 80px;
+  margin-top: -70px;
+}
+
+.outpicoff{
+  width: 30px;
+  height: 30px;
+  margin-left: -20px;
+  margin-top: 130px;
+}
+.logoutoff {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  display: block;
+  margin-top: 45px;
+  margin-left: -55px;
+}
+
+.containeroff{
+  width: 75%;
+  margin-left: 250px;
+}
+.containeroff h5{
+  margin-top: 5px;
+  margin-left: 0px;
+}
+.loan-title {
+  font-size: 24px;
+  color: #8B0000;
+  margin-top: 70px; /* Adjust the top margin */
+  margin-bottom: -40px; /* Remove any default bottom margin */
+}
+
+/* Generate Report Button */
+.generate-report-button {
+  padding: 10px 20px;
+  background-color: #6c757d; /* Button background color */
+  color: white; /* Text color */
+  font-size: 14px;
+  border: none; /* Remove border */
+  border-radius: 50px;
+  cursor: pointer; /* Pointer cursor on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow for depth */
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+  margin-left: 860px;
+  margin-top: 20px;
+
+}
+.generate-report-button:hover {
+  background-color: gray; /* Darker shade on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhance shadow on hover */
+  transform: translateY(-2px); /* Slight lift on hover */
+  ;
+}
+
+.generate-report-button:active {
+  background-color: gray; /* Even darker shade when pressed */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Reduce shadow on press */
+  transform: translateY(0); /* Reset lift on press */
+}
+.profile-pic {
+  margin-top: 20px;
+  margin-left: 35px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid white;
+  
+}
+
+/*officerdahsboard 2*/
+.pending-table {
+  width: 96.5%;
+  max-width: 1200px; /* Align with other sections */
+  margin: 100px auto; /* Center align the transaction section */
+  border-radius: 8px; /* Rounded corners for the table container */
+  overflow: hidden; /* Ensure rounded corners are visible */
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.2);
+  margin-bottom: 50px;
+}
+
+.pending-header {
+  background-color: #051424; /* White background for the header */
+  border-radius: 8px 8px 0 0; /* Rounded corners on the top */
+  padding: 10px 20px; /* Padding around the header */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+  font-size: 18px; /* Font size for the header */
+  font-weight: bold; /* Make the font bold */
+  color: white; /* Match the color shown in the image */
+}
+.pending-header span{
+  margin-top: 15px;
+}
+
+table {
+  width: 100%;
+  border-collapse: separate; /* Use separate borders for rounded corners */
+  border-spacing: 0;
+}
+
+th, td {
+  padding: 15px;
+  text-align: center;
+}
+
+th {
+  background-color: #f4f4f4;
+  border-top-left-radius: 8px; /* Rounded corners for the top-left */
+  border-top-right-radius: 8px; /* Rounded corners for the top-right */
+  font-weight: bold;
+}
+
+tbody tr {
+  background-color: #ffffff; /* White background for table rows */
+}
+
+tbody tr:hover {
+  background-color: #f1f1f1; /* Hover effect for better UX */
+}
+
+td {
+  border-bottom: 1px solid #ddd; /* Add a border to separate rows */
+}
+
+/* First and last row for rounded corners */
+tbody tr:last-child td:first-child {
+  border-bottom-left-radius: 8px;
+}
+
+tbody tr:last-child td:last-child {
+  border-bottom-right-radius: 8px;
+}
+
+.search-bar {
+  position: relative;
+  margin-top: -25px;
+}
+
+.search-bar input {
+  width: 44.5%;
+  padding: 8px;
+
+  margin-left:510px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 12px;
+  border: 1px solid #ccc;
+  
+}
+
+/*officer dashboard 3*/
+.view-button {
+  padding: 5px 10px;
+  background-color: #2a8eff; 
+  color: white; /* Text color */
+  font-size: 11px;
+  border: none; /* Remove border */
+  border-radius: 4px;
+  cursor: pointer; /* Pointer cursor on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow for depth */
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+  width: 80px;
+  align-items: center;
+  margin-left: 50px;
+}
+.view-button:hover {
+  background-color: rgb(255, 255, 255); /* Darker shade on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhance shadow on hover */
+  transform: translateY(-2px); /* Slight lift on hover */
+  color: black;
+}
+
+.pagination-controls {
+  display: flex;
+  align-items: center; /* Vertically center align items */
+  justify-content: center; /* Center the content horizontally */
+  gap: 15px; /* Space between buttons and text */
+  margin: 10px 0; /* Margin above and below the controls */
+  }
+  
+  .page {
+  padding: 5px 15px; /* Padding for buttons */
+  border: 2px solid transparent; /* Default border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+  background-color: #007bff; /* Default background color */
+  color: white; /* Text color */
+  font-size: 11px;
+  }
+  
+  .page:hover:not(:disabled) {
+  background-color: #0056b3; /* Darker blue on hover */
+  border-color: #004085; /* Border color on hover */
+  }
+  
+  .page:disabled {
+  background-color: #ccc; /* Grey background for disabled button */
+  color: #666; /* Darker text color for disabled button */
+  cursor: not-allowed; /* Not allowed cursor for disabled button */
+  }
+  
+  .pagespan {
+  font-size: 16px; /* Font size for pagination text */
+  color: #333; /* Color for pagination text */
+  }
+
+  @media print {
+    .card-container.pdf-mode {
+      display: block; /* Avoid flexbox rendering issues */
+    }
+  
+    .card {
+      width: 100%; /* Ensure consistent width */
+      margin-bottom: 20px; /* Add spacing for stacked layout */
+    }
+  
+    .colored-stripe {
+      position: static; /* Inline positioning for simplicity */
+      display: inline-block;
+      width: 8px;
+      height: auto; /* Stretch with content */
+    }
+  } @media print {
+    .card-container.pdf-mode {
+      display: block; /* Avoid flexbox rendering issues */
+     }
+  } 
+  
+  

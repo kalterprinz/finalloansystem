@@ -1,0 +1,447 @@
+.landing-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+  }
+.contentlan {
+   width: 75.3%;
+   margin: 0 auto;
+   margin-left: 110px;
+    
+  } 
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 3px 0;
+    background-color: white;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top:0;
+    z-index: 1000;
+    border-bottom: 1px solid #990000;
+    text-align: left;
+    margin: 0 auto; 
+}
+.landingh2q {
+    font-size: 15px;
+    color: #990000;
+    text-align: left;
+    font-weight: bold;
+    margin-right: 730px;
+    margin-top: 14px;
+}
+
+.landingh2ql {
+    font-size: 15px;
+    color: #990000;
+    text-align: left;
+    font-weight: bold;
+    margin-right: 770px;
+    margin-top: 15px;
+}
+.navicon11 {
+    width: 38px;
+    margin-top: -10px;
+    margin-bottom: -5px;
+    margin-right: 10px;
+  }
+  .user-image {
+    width: 20px; /* Adjust as necessary */
+    height: 20px;
+    margin-bottom: 1px;
+    margin-top: 15px;
+    object-fit: cover;
+    cursor: pointer; /* Makes the image clickable */
+    border-radius: 50%; /* Makes the image circular */
+}
+
+.user-profile{
+    justify-content: center;
+    margin-top: -10px;
+}
+  
+.navicon12 {
+    width: 30px;
+    margin-top: -10px;
+    margin-bottom: -5px;
+    margin-right: 10px;
+    
+}
+ 
+.logger {
+    display: flex; /* Use Flexbox */
+    justify-content: space-evenly; /* Ensures equal spacing between items */
+    align-items: center; /* Align items vertically in the center */
+    width: 200px; 
+}
+
+.nave, .nave1 {
+    padding: 5px 10px;
+    background-color: #990000;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: auto;
+    margin-top: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transition */
+}
+
+.nave1 {
+    margin-right: 15px;
+    margin-left: -15px;
+}
+
+/* Hover effect */
+.nave:hover, .nave1:hover {
+    background-color: #b30000; /* Change to a slightly lighter red */
+    transform: scale(1.05); /* Slightly enlarge the button */
+    font-weight: bold;
+}
+
+.logolan {
+    width: 40px;
+    height: 40px;
+    margin-left: 40px;
+    margin-bottom: 1px;
+    margin-top: 2px;
+}
+
+.main-banner {
+    display: flex;
+    align-items: center;
+    padding: 100px 50px;
+    background: url('bg.png') no-repeat center center fixed;
+    background-size: cover;
+    width: 124.6%;
+    margin-left: -127px;
+}
+.text-content {
+    flex: 1;
+    padding: 10px;
+}
+.text-content {
+    flex: 1;
+    padding: 10px;
+}
+.text-content1 {
+    flex: 1;
+    padding: 10px;
+    margin-left: -25px;
+}
+
+.text-content button 
+{
+    background-color: #990000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+
+    
+}
+.text-content1 button 
+{
+    background-color: #990000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    align-self: center; 
+    margin-left: 170px;
+
+}
+h1 {
+    font-size: 46px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #3e3e3e;
+}
+
+.apply-btn {
+    background-color: #990000;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.apply-btn:hover {
+    background-color: #0066ff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.banner-img {
+    width: 500px;
+    padding: 10px;
+}
+.aboutpp{
+    flex-grow: 1; 
+    font-size: 18px; 
+    line-height: 150%;
+    text-align: justify; 
+    margin-left: -5px;
+    width: 110%;
+
+}
+.vision {
+    width: 230px; 
+    height: 500px;  
+    object-fit: contain;  
+}
+.mission {
+    width: 230px; 
+    height: 500px;
+    object-fit: contain;  
+}
+.core {
+    width: auto; 
+    max-width: 115%;
+    height: auto; 
+    display: block; 
+
+}
+.vmc-section {
+    background-color: white;
+    align-items: center;
+    margin-bottom: -90px;
+}
+
+.vmc-grid {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap; 
+    gap: 40px; 
+    margin-top: -100px;
+    margin-left: 80px;
+}
+
+.vmc-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    width: 25%; 
+    min-height: 300px; 
+    padding: 5px;
+
+}
+
+.user-image {
+    width: 40px; /* Adjust as necessary */
+    height: 40px;
+    margin-bottom: 1px;
+    margin-top: 15px;
+    object-fit: cover;
+    cursor: pointer; /* Makes the image clickable */
+    border-radius: 50%; /* Makes the image circular */
+}
+
+.user-profile{
+    justify-content: center;
+    margin-top: -10px;
+}
+
+
+.services {
+    font-size: 30px;
+    font-weight: lighter;
+    font-family: Trebuchet MS (sans-serif);
+    margin:-50px 40% 30px 48%; /*top right bottom left*/ 
+    align-items: center;
+    color: #000000;
+    font-weight: bold;
+    width: 250px;
+}
+.services1 {
+    font-size: 30px;
+    font-weight: lighter;
+    font-family: Trebuchet MS (sans-serif);
+    margin:-50px 40% 30px 49%; /*top right bottom left*/ 
+    align-items: center;
+    color: #000000;
+    font-weight: bold;
+    width: 250px;
+}
+
+.services-section {
+    margin-top:90px;
+    padding: 5px;
+    background-color: white;
+    align-items: center;
+}
+
+.services-grid {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap; 
+    gap: 20px; 
+    margin-left: 155px;
+    margin-bottom: 20px;
+}
+
+.service-card {
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between; 
+    background-color: #f5f5f5;
+    width: 25%; 
+    min-height: 200px; 
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.service-card h3 {
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.service-card p {
+    flex-grow: 1; 
+    font-size: 15px;
+    text-align: justify;
+}
+
+.service-card img {
+    width: 80px; 
+    height: 80px; 
+    object-fit: contain; 
+    margin: 0 auto 0 auto; 
+    display: block; 
+}
+
+
+.service-card button {
+    background-color: #990000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    align-self: center; 
+}
+
+.service-card button:hover {
+    background-color: #cc0000;
+}
+
+.slideshow {
+    align-items: center;
+    padding: 30px 50px;
+    background: url('bg.png') no-repeat center center fixed;
+    background-size: cover;
+    width: 124.6%;
+    margin-left: -130px;
+}
+.slidep {
+    font-size: 30px;
+    font-weight: lighter;
+    font-family: Trebuchet MS (sans-serif);
+    margin:-40px 40% 30px 40%; /*top right bottom left*/ 
+    align-items: center;
+    color: #000000;
+    font-weight: bold;
+    margin-top: -5px;
+    justify-items: center;
+    text-align: center;
+}
+
+.slide {
+    position: relative;
+    text-align: center;
+    max-width: 800px;
+    justify-content: center;
+    margin-left: 300px;
+    margin-top: auto;
+}
+
+.slide-image {
+    width: 700px;
+    height: 550px;
+    border-radius: 10px; /* Optional border-radius for image */
+}
+
+.slide-content {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5); /* Background overlay */
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+  .register-btn {
+    background-color: #f1f1f1; /* Slightly different color for register button */
+  }
+  
+
+@media (max-width: 768px) {
+    .service-card {
+        width: 45%; 
+    }
+}
+
+@media (max-width: 480px) {
+    .service-card {
+        width: 90%; 
+    }
+}
+@media screen and (max-width: 1200px) {
+    .container {
+        padding: 0 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 0 5px;
+    }
+}
+.popup-actions {
+    display: flex;
+    justify-content: center; /* Center the button */
+    margin-top: 10px; /* Add space above */
+}
+
+.apply-now-button {
+    background-color: #123050;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.apply-now-button:hover {
+    background-color: #0e2a45;
+}
+
